@@ -9,12 +9,13 @@ import RNVectorHelper from './RNVectorHelper'
 
 class RNShineButton extends PureComponent {
   _onChange = event => {
-    let value = false;
-    if (event.nativeEvent.value === "YES") value = true;
-
+    // let value = false;
+    // if (event.nativeEvent.value === "YES") value = true;
+    const { value } = event.nativeEvent; 
+    
     this.props.onChange && this.props.onChange(value);
 
-    this._shineButton.setNativeProps({ on: event.nativeEvent.value });
+    this._shineButton.setNativeProps({ on: value });
   };
 
   render() {
