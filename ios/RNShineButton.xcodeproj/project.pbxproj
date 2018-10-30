@@ -327,6 +327,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = RNShineButton;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.1;
 			};
 			name = Debug;
 		};
@@ -344,6 +345,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = RNShineButton;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.1;
 			};
 			name = Release;
 		};
