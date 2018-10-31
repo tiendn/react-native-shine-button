@@ -5,7 +5,7 @@
   "main": "js/RNShineButton.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/prscX/react-native-shine-button.git"
+    "url": "https://github.com/tiendn/react-native-shine-button.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
